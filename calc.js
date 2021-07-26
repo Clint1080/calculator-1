@@ -8,8 +8,13 @@ const reader = readline.createInterface({
 
 
 console.log('You can use +, -, /, *. For ex. + 2 4 will = 8');
+
 console.log('sqrd is to square a number and sqrt is for square root');
+
 console.log('** raised your first number to the power of the second number')
+
+console.log('% will show the remainder of 2 numbers that you divide')
+
 reader.question("What would you like to calculate?", function(input){
 	tokens = input.split(' ');
 	
